@@ -44,7 +44,7 @@ export default function index() {
       if (currFileText == 'None') {
         updateButBorder('black')
       }
-      const timerId = setTimeout(() => {
+      const timerId = setTimeout(() => {  
         updateButBorder('transparent');
         console.log('set transparent')
       }, 100); 
